@@ -24,11 +24,12 @@ poetry init
 * [Add any required packages to `pyproject.toml`](https://python-poetry.org/docs/basic-usage/#specifying-dependencies)
 ```
 poetry add pytest
+poetry add ipytest
 poetry add jupyter
 poetry add ipykernel
 ...
 ```
-* [Lock in packages as specified in `pyproject.toml`](https://python-poetry.org/docs/basic-usage/#installing-dependencies)
+* [Lock in packages as specified in `pyproject.toml`](https://python-poetry.org/docs/basic-usage/#installing-dependencies) (if `poetry.lock` file doesn't already exist)
 ```
 poetry install
 ```
